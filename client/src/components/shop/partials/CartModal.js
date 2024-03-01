@@ -173,7 +173,7 @@ const CartModal = () => {
                       cartModalOpen();
                     }}
                   >
-                    Checkout Rs: {data.cartTotalCost}
+                    Checkout Rs:{data.cartTotalCost}
                   </div>
                 ) : (
                   <div
@@ -191,7 +191,7 @@ const CartModal = () => {
                       });
                     }}
                   >
-                    Checkout Rs: {data.cartTotalCost}
+                    Checkout Rs:{data.cartTotalCost}
                   </div>
                 )}
               </Fragment>
