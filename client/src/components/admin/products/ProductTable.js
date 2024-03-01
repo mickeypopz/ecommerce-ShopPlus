@@ -179,13 +179,13 @@ const ProductTable = ({ product, deleteProduct, editProduct }) => {
         <td className="p-2 text-center">{product.pQuantity}</td>
         <td className="p-2 text-center">{product.pCategory.cName}</td>
         <td className="p-2 text-center">
-          $
+          Rs:
           {product.pOffer !== 0 && product.pOffer !== "0"
             ? product.pOffer
             : product.pPrice}{" "}
         </td>
         <td className="p-2 text-center">
-          $
+          Rs:
           {product.pOffer !== 0 && product.pOffer !== "0"
             ? product.pPrice
             : product.pOffer}
