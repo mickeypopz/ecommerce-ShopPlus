@@ -217,15 +217,15 @@ const ProductDetailsSection = (props) => {
               <div className="flex justify-between items-center">
                 {sProduct.pOffer !== 0 && sProduct.pOffer !== "0" ? (
                   <span className="md:text-2xl font-semibold  tracking-wider text-yellow-700 text-xl">
-                    ${sProduct.pPrice}
+                    Rs: {sProduct.pPrice}
                     <span className="md:text-[17px] text-[15px] relative top-[1px] right-1 sm:right-[0px] line-through p-1 text-black">
-                      ${sProduct.pOffer}
+                      Rs: {sProduct.pOffer}
                     </span>{" "}
                   </span>
                 ) : (
                   <span className="md:text-[19px] font-semibold  tracking-wider text-yellow-700 text-base">
                     {" "}
-                    ${sProduct.pPrice}
+                    Rs: {sProduct.pPrice}
                   </span>
                 )}
                 <span>
