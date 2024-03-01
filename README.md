@@ -103,10 +103,12 @@ To run this project, you will need to add the following environment variables to
 
 ## For payment transactions use :
 5555 5555 5555 4444
+
 12/30
 
 ## To Access Admin
 username: admin@gmail.com
+
 password: admin123
 
 ## reference
