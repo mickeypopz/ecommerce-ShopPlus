@@ -123,15 +123,15 @@ const AllProduct = ({ products }) => {
                     </div>
                     {item.pOffer !== 0 && item.pOffer !== "0" ? (
                       <div className="md:text-[19px] font-semibold text-[#a1510c] text-base">
-                        ${item.pOffer}
+                        Rs: {item.pOffer}
                         <span className="md:text-[15px] text-[13px] relative top-[1px] right-1 sm:right-[0px] line-through p-1 text-black">
-                          ${item.pPrice}
+                          Rs: {item.pPrice}
                         </span>{" "}
                       </div>
                     ) : (
                       <div className="md:text-[19px] font-semibold text-[#a1510c] text-base">
                         {" "}
-                        ${item.pPrice}
+                        Rs: {item.pPrice}
                       </div>
                     )}
                   </div>
