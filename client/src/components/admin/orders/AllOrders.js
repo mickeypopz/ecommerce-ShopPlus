@@ -139,7 +139,7 @@ const CategoryTable = ({ order, editOrder }) => {
           )}
         </td>
         <td className="hover:bg-gray-200 p-2 text-center">
-          ${order.amount < 0.999 ? order.amount : `${order.amount}.00`}
+          Rs: {order.amount < 0.999 ? order.amount : `${order.amount}.00`}
         </td>
         <td className="hover:bg-gray-200 p-2 text-center">
           {order.transactionId}
